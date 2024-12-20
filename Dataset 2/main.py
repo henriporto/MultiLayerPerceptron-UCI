@@ -69,11 +69,11 @@ def evaluate(model, X_test, y_test, label_encoder):
     recall = recall_score(y_test_decoded, y_pred_decoded, average='weighted', zero_division=0)
     f1 = f1_score(y_test_decoded, y_pred_decoded, average='weighted', zero_division=0)
 
-    print(f"Acurácia: {accuracy:.4f}")
-    print(f"Precisão: {precision:.4f}")
-    print(f"Recall:   {recall:.4f}")
-    print(f"F1 Score: {f1:.4f}")
-    print("Relatório de Classificação:")
+    print(f"Accuracy: {accuracy:.4f}")
+    print(f"Precision: {precision:.4f}")
+    print(f"Recall:    {recall:.4f}")
+    print(f"F1 Score:  {f1:.4f}")
+    print("Classification Report:")
     print(classification_report(y_test_decoded, y_pred_decoded, zero_division=0))
 
 

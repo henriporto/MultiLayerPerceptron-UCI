@@ -1,11 +1,11 @@
 # Multi Layer Perceptron Classifier Analysis on UCI Datasets
 - *Author:* Henrique de Morais Porto
-- *Description:* This project implements and evaluates [Multi-Layer Perceptron classifiers](https://scikit-learn.org/1.5/modules/neural_networks_supervised.html#multi-layer-perceptron) on 3 datasets from the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/). The focus is on datasets with categorical attributes and more than 3 classes. The project uses one-hot encoding for preprocessing and evaluates models using metrics like accuracy, precision, recall, and F1-score. The results are provided for each dataset, showcasing the MLP's performance in handling classification tasks.
+- *Description:* This project implements and evaluates [Multi-Layer Perceptron classifiers](https://scikit-learn.org/1.5/modules/neural_networks_supervised.html#multi-layer-perceptron) on 3 datasets from the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/). The focus is on datasets with categorical attributes and more than 3 classes. The project uses one-hot encoding for preprocessing and evaluates models using metrics like accuracy, precision, recall, and F1-score. The results are provided for each dataset.
 
 ## How to install and run? (Windows CMD)
 
 ```shell
-cd .\"Trabalho Multi-Layer Perceptron"
+cd .\"MultiLayerPerceptron-UCI"
 ```
 ```shell
 python -m venv env
@@ -36,7 +36,7 @@ Accuracy: 0.9942
 Precision: 0.9943
 Recall:    0.9942
 F1 Score:  0.9942
-Relatório de Classificação:
+Classification Report:
               precision    recall  f1-score   support
 
          acc       0.99      0.98      0.99       115
@@ -58,11 +58,11 @@ Michalski's famous soybean disease database. There are 19 classes, only the firs
 - Link: https://archive.ics.uci.edu/dataset/90/soybean+large
 - Results:
 ```
-Acurácia: 0.8750
-Precisão: 0.8800
+Accuracy: 0.8750
+Precision: 0.8800
 Recall:   0.8750
 F1 Score: 0.8736
-Relatório de Classificação:
+Classification Report:
                         precision    recall  f1-score   support
 
    alternarialeaf-spot       0.62      0.83      0.71        12

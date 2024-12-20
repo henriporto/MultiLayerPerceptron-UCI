@@ -74,7 +74,7 @@ def evaluate(model, X_test, y_test, label_encoder):
     print(f"Precision: {precision:.4f}")
     print(f"Recall:    {recall:.4f}")
     print(f"F1 Score:  {f1:.4f}")
-    print("Relatório de Classificação:")
+    print("Classification Report:")
     print(classification_report(y_test_decoded, y_pred_decoded, zero_division=0))
 
 
